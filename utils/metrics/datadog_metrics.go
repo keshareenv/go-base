@@ -9,8 +9,8 @@ import (
 
 	kitlogger "github.com/go-kit/kit/log"
 	"github.com/go-kit/kit/metrics/dogstatsd"
+	"github.com/keshareenv/go-base/utils/log"
 	"github.com/mitchellh/mapstructure"
-	"github.com/unbxd/go-base/utils/log"
 )
 
 type (

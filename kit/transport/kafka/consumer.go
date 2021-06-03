@@ -6,11 +6,11 @@ import (
 	"time"
 
 	"github.com/go-kit/kit/transport"
+	"github.com/keshareenv/go-base/kit/endpoint"
+	"github.com/keshareenv/go-base/utils/log"
 	"github.com/pkg/errors"
 	"github.com/segmentio/kafka-go"
 	kafgo "github.com/segmentio/kafka-go"
-	"github.com/unbxd/go-base/kit/endpoint"
-	"github.com/unbxd/go-base/utils/log"
 )
 
 type (

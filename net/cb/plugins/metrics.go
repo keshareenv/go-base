@@ -1,7 +1,7 @@
 package plugins
 
 import (
-	gbmetrics "github.com/unbxd/go-base/utils/metrics"
+	gbmetrics "github.com/keshareenv/go-base/utils/metrics"
 	"github.com/unbxd/hystrix-go/hystrix/metric"
 )
 

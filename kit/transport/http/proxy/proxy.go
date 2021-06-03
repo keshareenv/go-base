@@ -8,9 +8,9 @@ import (
 	"strings"
 	"time"
 
+	"github.com/keshareenv/go-base/kit/endpoint"
+	"github.com/keshareenv/go-base/utils/log"
 	"github.com/pkg/errors"
-	"github.com/unbxd/go-base/kit/endpoint"
-	"github.com/unbxd/go-base/utils/log"
 )
 
 const defaultUserAgent = "Mozart-[go-dialer]"

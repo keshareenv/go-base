@@ -4,9 +4,9 @@ import (
 	"context"
 	"time"
 
+	"github.com/keshareenv/go-base/kit/endpoint"
 	natn "github.com/nats-io/nats.go"
 	"github.com/pkg/errors"
-	"github.com/unbxd/go-base/kit/endpoint"
 )
 
 type (

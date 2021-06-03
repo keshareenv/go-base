@@ -1,8 +1,8 @@
 package nats
 
 import (
+	"github.com/keshareenv/go-base/utils/log"
 	natn "github.com/nats-io/nats.go"
-	"github.com/unbxd/go-base/utils/log"
 )
 
 // DisconnectErrorCallback is called when the connection to
